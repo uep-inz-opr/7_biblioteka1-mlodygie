@@ -28,7 +28,7 @@ for n in tytul:
     ilosc.append(tytul.count(n))
 
 for ksiazka in lista_ksiazek:
-    info.append(ksiazka.tytul + ksiazka.autor + str(ilosc[i]))
+    info.append("('"+ksiazka.tytul+"', '"+ksiazka.autor+"', "+str(ilosc[i])+")")
     i += 1
     info = set(info)
     info = sorted(info)
