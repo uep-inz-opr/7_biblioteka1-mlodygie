@@ -1,8 +1,8 @@
 class Ksiazka:
     def __init__(self, tytul, autor, rok):
-        self.tytul = tytul
-        self.autor = autor
-        self.rok = rok
+        self.tytul = str(tytul)
+        self.autor = str(autor)
+        self.rok = int(rok)
 
 ilosc_ksiazek=int(input())
 lista_ksiazek=[]
